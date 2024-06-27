@@ -199,6 +199,11 @@ header h3 {
     flex-direction: column;
     align-items: center;
   }
+  .inputs input{
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 600;
+  }
   .inputs input,
   .inputs button {
     width: 80%;
