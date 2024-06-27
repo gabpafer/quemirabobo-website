@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Que Mira Bobo?</title>
+  </head>
+  <body>
+    <header>
+      <img src="../src/qmb-logo.png" alt="logo-que-mira-bobo" />
+    </header>
+    <aside class="aside-left"></aside>
+    <aside class="aside-right"></aside>
+    <main>
+      <div class="header">
+        <h3>&#128071; MIRA A MESSI! &#128071;</h3>
+        <p>Únete a las otras <span>personas</span> que ya lo vieron!</p>
+      </div>
+      <section class="content-box">
+        <div class="video-wrap">
+          <video controls autoplay loop>
+            <source src="../src/que-mira-bobo.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="ads-horizontal"><p>------------------------</p></div>
+        <div class="inputs-wrap">
+          <label><h3>Mira a Messi como todos los que lo han hecho!</h3></label>
+          <div class="inputs">
+            <input
+              type="text"
+              id="nameInput"
+              placeholder="su nombre / seu nome / your name"
+            />
+            <button id="addButton">Mirar a Messi</button>
+          </div>
+        </div>
+              <!-- PAINEL CON LAS MIRADAS -->
+        <div class="name-list">
+          <h2>&#128523 Mira quién lo miró en todo el mundo:</h2>
+          <ul id="nameList"></ul>
+        </div>
+      </section>
+    </main>
+    <section>
+      <div class="footer">
+        <h3>2024 &copy Que Mira Bobo? - con tus derechos a Gabriel Pafer</h3>
+      </div>
+    </section>
+    <!-- scripts -->
+    <script src="main.js"></script>
+
+  </body>
+</html>

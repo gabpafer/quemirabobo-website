@@ -1,0 +1,169 @@
+/* INICIO DO CÓDIGO DE ESTILO */
+/* ::::::::QUE MIRA BOBO WEBSITE::::::::: */
+/* -----CRIADO POR GABRIEL PAFER----- */
+/* ---------JUNHO DE 2024--------- */
+
+/* UNIVERSAL SETTINGS */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+body {
+  background-color: #f6f6f6;
+}
+/* ======================================================== */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    background-color: #6CACE4;
+}
+header img{
+    height: inherit;
+    margin: 0;
+}
+header h3{
+    margin-left: 20%;
+    text-align: center;
+}
+
+/* main */
+.content-box {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+.header{
+    height: 60px;
+}
+.header h3{
+    text-align: center;
+    padding: 15px 0 5px 0;
+}
+.header >p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.video-wrap video{
+  height: auto;
+  width: 100%;
+  margin: 20px 0;
+}
+.inputs-wrap {
+  display: block;
+  max-width: 100%;
+  height: 140px;
+  /* border: 2px solid #000; */
+}
+.inputs-wrap label {
+  text-align: center;
+}
+.inputs-wrap label h3{
+    padding: 20px 0;
+}
+.inputs-wrap .inputs{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.inputs input{
+    height: 30px;
+    width: 50%;
+    border: 1px solid #000;
+}
+.inputs input::placeholder{
+    padding: 5px;
+}
+.inputs button{
+    height: 30px;
+    width: 15%;
+    border-radius: 5px;
+    background-color: #6CACE4;
+    color: white;
+    font-weight: 600;
+}
+.inputs button:hover{   
+    background-color: white;
+    border: #6da8c1 2px solid;
+    color: #6da8c1;
+}
+
+.name-list {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+.name-list h2{
+  padding: 20px 0;
+}
+.name-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.name-list li {
+    padding: 5px 0;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+}
+.name-list:last-child {
+    border-bottom: none;
+}
+
+/* asides and ads*/
+.aside-left{
+    position: absolute;
+    background-color: #373636;
+    height: 100%;
+    width: 15%;
+    margin-top: 80px;
+}
+.aside-right{
+    position: absolute;
+    left: 85%;
+    background-color: #373636;
+    height: 100%;
+    width: 15%;
+    margin-top: 80px;
+}
+.ads-horizontal{
+  height: 150px;
+  width: 100%;
+  background-color: #373636;
+}
+
+/* footer */
+.footer {
+  width: 50%;
+  margin: 30px auto;
+}
+.footer {
+  text-align: center;
+}
+.footer h3 {
+  font-size: 14px;
+  font-weight: 300;
+}
