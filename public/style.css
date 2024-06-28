@@ -123,12 +123,15 @@ header h3 {
   list-style: none;
   padding: 0;
   margin: 0;
+  transform: rotate(180deg);
 }
 
 .name-list li {
   padding: 5px 0;
   font-size: 18px;
   border-bottom: 1px solid #ddd;
+  transform: rotate(-180deg);
+
 }
 .name-list:last-child {
   border-bottom: none;
