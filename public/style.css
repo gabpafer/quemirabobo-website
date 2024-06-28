@@ -138,7 +138,7 @@ header h3 {
 }
 
 /* asides and ads*/
-.aside-left {
+/* .aside-left {
   position: absolute;
   background-color: #373636;
   height: 100%;
@@ -157,7 +157,7 @@ header h3 {
   height: 150px;
   width: 100%;
   background-color: #373636;
-}
+} */
 
 /* footer */
 .footer {
@@ -206,6 +206,9 @@ header h3 {
     font-size: 24px;
     padding: 12px;
     font-weight: 600;
+  }
+  .inputs button{
+    font-size: 24px;
   }
   .inputs input,
   .inputs button {
